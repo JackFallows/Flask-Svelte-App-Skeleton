@@ -13,9 +13,3 @@ Then, using the Flask build profile in VSCode, run `server.py`
 A separate terminal window in the `client` folder is required to validate the TypeScript with the following command:
 ```npm run validate```
 
-cd client
-npm run build-debug
-
-in another terminal, npm run validate to type check svelte and ts files
-
-then run the python app (server.py)
