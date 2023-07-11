@@ -11,7 +11,7 @@ npx degit JackFallows/Flask-Svelte-App-Skeleton webapp
 ```
 Then:
 * `cd webapp`
-* Create a Python virtual environment and activate it (optional) - see https://code.visualstudio.com/docs/python/environments
+* (Optional) Create a Python virtual environment and activate it - see https://code.visualstudio.com/docs/python/environments
 * Run `python3 -m pip install -r requirements.txt`
 * Then:
 * `cd client`
