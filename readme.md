@@ -5,11 +5,17 @@ This template has been made by:
 * But using the Svelte webpack template from here: https://github.com/sveltejs/template-webpack
 * And converting to TypeScript using `node scripts/setupTypeScript.js` in the `client` folder
 
+Clone into a folder called `webapp` with the following command:
+```npx degit JackFallows/Flask-Svelte-App-Skeleton webapp```
+Then:
+* `cd client`
+* `npm install`
+
 Build the client code by running the following in the `client` folder:
 ```npm run build-debug```
 
 Then, using the Flask build profile in VSCode, run `server.py`
 
-A separate terminal window in the `client` folder is required to validate the TypeScript with the following command:
+The following command in the `client` folder is required to validate the TypeScript:
 ```npm run validate```
 
