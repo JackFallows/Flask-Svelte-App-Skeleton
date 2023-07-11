@@ -1,4 +1,4 @@
-# Basic Python Flask web app with a Svelte frontend
+# Python/Flask web app template with a Svelte frontend
 
 This template has been made by:
 * Partially following the tutorial here: https://cabreraalex.medium.com/svelte-js-flask-combining-svelte-with-a-simple-backend-server-d1bc46190ab9
