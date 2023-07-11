@@ -6,16 +6,26 @@ This template has been made by:
 * And converting to TypeScript using `node scripts/setupTypeScript.js` in the `client` folder
 
 Clone into a folder called `webapp` with the following command:
-```npx degit JackFallows/Flask-Svelte-App-Skeleton webapp```
+```
+npx degit JackFallows/Flask-Svelte-App-Skeleton webapp
+```
 Then:
+* `cd webapp`
+* Create a Python virtual environment and activate it (optional) - see https://code.visualstudio.com/docs/python/environments
+* Run `python3 -m pip install -r requirements.txt`
+* Then:
 * `cd client`
 * `npm install`
 
 Build the client code by running the following in the `client` folder:
-```npm run build-debug```
+```
+npm run build-debug
+```
 
 Then, using the Flask build profile in VSCode, run `server.py`
 
 The following command in the `client` folder is required to validate the TypeScript:
-```npm run validate```
+```
+npm run validate
+```
 
