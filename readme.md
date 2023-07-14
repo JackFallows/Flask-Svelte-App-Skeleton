@@ -7,7 +7,7 @@ This template has been made by:
 
 Clone into a folder called `webapp` with the following command:
 ```
-npx degit JackFallows/Flask-Svelte-App-Skeleton webapp
+npx degit JackFallows/Flask-Svelte-App-Skeleton#playwright-component-tests webapp
 ```
 Then:
 * `cd webapp`
@@ -29,3 +29,7 @@ The following command in the `client` folder is required to validate the TypeScr
 npm run validate
 ```
 
+Run Playwright component tests using:
+```
+npm run test-ct
+```
