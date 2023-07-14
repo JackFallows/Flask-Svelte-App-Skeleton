@@ -29,3 +29,4 @@ The following command in the `client` folder is required to validate the TypeScr
 npm run validate
 ```
 
+For a version with [Playwright component tests](https://playwright.dev/docs/test-components) support, see the [playwright-component-tests](https://github.com/JackFallows/Flask-Svelte-App-Skeleton/tree/playwright-component-tests) branch.
