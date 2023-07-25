@@ -22,7 +22,7 @@ Build the client code by running the following in the `client` folder:
 npm run build-debug
 ```
 
-Then, using the Flask build profile in VSCode, run `server.py`
+Then, using the Flask build profile in VSCode, run `app.py`
 
 The following command in the `client` folder is required to validate the TypeScript:
 ```
